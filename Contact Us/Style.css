@@ -149,6 +149,13 @@ nav ul li ul li a:hover {
   .icon{
     width: 10px;
   }
+
+  .logo-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 
