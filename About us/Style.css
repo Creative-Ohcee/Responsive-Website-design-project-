@@ -11,8 +11,15 @@ nav ul li {
   font-family: arvo;
 }
 
-nav ul li a{
+.nav-item{
   font-family: 'Sen', sans-serif;
+}
+
+nav button a {
+  font-family: 'Sen', sans-serif;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
 }
 
 
@@ -45,6 +52,11 @@ nav ul li ul li a:hover {
   transition: all 0.3s ease;
 }
 
+.logo-menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .hero{
     background-image:url(./Images/AdobeStock_133891886\ 1.png);
@@ -139,3 +151,13 @@ text-align: left;
   }
 
 }
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .logo-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+

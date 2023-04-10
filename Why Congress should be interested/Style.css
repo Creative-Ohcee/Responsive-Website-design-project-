@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&display=swap');
+
+nav ul li {
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 0 5px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: arvo;
+}
+
+.nav-item{
+  font-family: 'Sen', sans-serif;
+}
+
+nav button a {
+  font-family: 'Sen', sans-serif;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
+
+nav li:hover {
+  cursor: pointer;
+}
+
+
+nav ul li:hover > ul,
+nav ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+nav ul li ul li {
+  clear: both;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+nav ul li ul li a:hover {
+  padding-left: 10px;
+  border-left: 2px solid #3ca0e7;
+  transition: all 0.3s ease;
+}
+
+.logo-menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero{
+    background-image:url(./Image/AdobeStock_71583019\ 1.png);
+    width: 100%;
+    background-size: cover;
+  }
+
+.hero h1{
+    font-family: 'Sen', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-top: 300px;
+  }
+
+  p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+
+
+  .texthead{
+    font-family: 'Sen', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #382B73;
+  }
+
+  .texttopic{
+    font-family: 'Sen', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+  }
+
+  footer{
+    background: #232536;
+}
+
+footer h1{
+font-family: 'Sen', sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2px;
+text-align: left;
+}
+
+.footercard{
+    background-color:#000000;
+}
+
+.Footerbtn{
+    background-color:#FFD050;
+    font-family: 'Sen', sans-serif;
+}
+
+.Footerinp{
+    background-color: transparent;
+    border: 0.5px solid #FFD050;
+}
+
+.Footeraddress img{
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Footerinp{
+      background-color: transparent;
+      border: 0.5px solid #FFD050;
+      width: 100%;
+      padding: 0;
+  }
+  .hero h1{
+    font-family: 'Sen', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-top: 100px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .logo-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
