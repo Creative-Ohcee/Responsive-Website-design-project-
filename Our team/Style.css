@@ -83,6 +83,10 @@ nav ul li ul li a:hover {
     text-align: justify;
   }
 
+  .list li p{
+    text-align: left;
+  }
+
   .section2 h3{
     font-family: 'Sen', sans-serif;
     font-size: 28px;
