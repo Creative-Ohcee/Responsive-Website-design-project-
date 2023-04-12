@@ -81,7 +81,9 @@ nav ul li ul li a:hover {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0px;
+    text-align: justify;
   }
+
 
 .scection2 h3{
     font-family: 'Sen', sans-serif;

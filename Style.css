@@ -79,11 +79,17 @@
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0px;
+    text-align: justify;
   }
 
-.Image4{
+
+/* .image1{
+  height: 160vh;
+} */
+
+/* .Image4{
     height: 87.3vh;
-}
+} */
 
 footer{
     background: #232536;
@@ -140,6 +146,10 @@ text-align: left;
       justify-content: space-between;
       align-items: center;
       width: 100%;
+    }
+
+    .image1{
+      height: 80vh;
     }
 
   }
